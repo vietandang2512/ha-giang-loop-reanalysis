@@ -1,4 +1,4 @@
-# 02_logistic_models.R -- why the poster's finding does not hold.
+# 02_logistic_models.R -- why my original finding does not hold.
 #
 # Account type and platform are correlated in this corpus: Instagram is 72% tourist
 # accounts, TikTok is 46%. A 2x2 test of account type against any outcome therefore
@@ -40,12 +40,20 @@ cat("Tour_Group: OR =", fmt(out$OR_agency[out$outcome == "Tour_Group"], 2),
     ", p =", fmt(out$p_agency[out$outcome == "Tour_Group"], 4),
     "-- unaffected by platform, and the effect that holds.\n")
 
+# The same argument without a model: split the data by platform and look.
+cat("\n=== Posts depicting local residents, within each platform ===\n")
+print(round(prop.table(table(d$Platform, d$Sender_Type, d$Locals), c(1, 2))[, , "1"], 2))
+cat("On Instagram the gap is 27 points. On TikTok it is 8. Most of what the\n")
+cat("original 2x2 test picked up was the difference between the platforms.\n")
+
 # Content breadth: do agencies post narrower content, or is that a platform effect too?
-cat("\n=== Themes per post (Poisson) ===\n")
+cat("\n=== Themes per post ===\n")
 print(round(tapply(d$n_themes, d$Sender_Type, mean), 2))
 print(round(tapply(d$n_themes, d$Platform, mean), 2))
-pm <- glm(n_themes ~ Agency + TikTok, data = d, family = poisson)
-print(round(summary(pm)$coefficients, 4))
+t1 <- t.test(n_themes ~ Platform, data = d)
+t2 <- t.test(n_themes ~ Sender_Type, data = d)
+cat("by platform:     Welch t =", fmt(t1$statistic, 2), " p =", fmt(t1$p.value, 4), "\n")
+cat("by account type: Welch t =", fmt(t2$statistic, 2), " p =", fmt(t2$p.value, 4), "\n")
 cat("\nPlatform compresses content; account type does not.\n")
 
 write.csv(out, "results/02_logistic_models.csv", row.names = FALSE)

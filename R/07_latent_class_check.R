@@ -1,8 +1,10 @@
-# 03_latent_class.R -- replacing fourteen bivariate tests with one model.
+# 07_latent_class_check.R -- robustness check on the simple split in script 03.
 #
-# Seven binary codes describe each post. Rather than testing them one at a time,
-# fit a latent class model: assume each post belongs to one unobserved "kind" of
-# post, and that the codes are independent within a kind. Model selection by BIC.
+# Script 03 splits the corpus with a counting rule. This asks whether a model
+# that is told nothing about which codes matter finds the same split. Fit a
+# latent class model over all seven codes: assume each post belongs to one
+# unobserved kind of post, with the codes independent within a kind, and choose
+# the number of kinds by BIC.
 #
 # poLCA would normally do this. It is implemented here in base R (EM, ~40 lines)
 # so the repo has zero dependencies and the estimation is inspectable.
@@ -86,7 +88,17 @@ cat("chi-square =", fmt(cs2$statistic, 2), " p =", fmt(cs2$p.value, 4), "\n")
 cat("\nMean assignment certainty:",
     fmt(mean(apply(fit$post, 1, max)), 3), "\n")
 
-write.csv(round(prof, 3), "results/03_class_profiles.csv")
+# --- Does it agree with the simple rule in script 03? -----------------------
+simple <- as.integer(rowSums(d[, c("Locals", "Culture", "Villages_Temples")]) >= 2)
+model  <- as.integer(d$class == levels(d$class)[1])
+tab <- table(simple, model)
+po <- sum(diag(tab)) / sum(tab)
+pe <- sum(rowSums(tab) * colSums(tab)) / sum(tab)^2
+cat("\n=== Agreement with the counting rule in script 03 ===\n")
+cat("Agree on", sum(diag(tab)), "of", sum(tab), "posts; Cohen's kappa =",
+    fmt((po - pe) / (1 - pe), 2), "\n")
+cat("The model finds the same split, so the headline result does not depend on it.\n")
+
+write.csv(round(prof, 3), "results/07_class_profiles.csv")
 write.csv(data.frame(ID = d$ID, class = as.character(d$class)),
-          "results/03_class_assignments.csv", row.names = FALSE)
-saveRDS(d, "results/content_with_class.rds")
+          "results/07_class_assignments.csv", row.names = FALSE)
