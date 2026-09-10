@@ -1,0 +1,62 @@
+timestamp,age,gender,origin,travel_party,found_via,motivation,q_locals,q_danger,q_price,q_stay,q_upload,upload_platforms,q_recommend,q_accurate,q_highlight,q_return,open_ended,q_party
+2025-06-15,25-34,Female,Asia,Null,"Facebook, Instagram",Scenery,4,1,5,5,4,"Facebook, Instagram",5,4,4,5,,
+2025-06-16,35-44,Male,Asia,Null,"Facebook, Youtube",Scenery,5,4,5,5,4,Facebook,5,4,5,5,,
+2025-06-29,18-24,Male,Oceania,Friends,Recommendations from friends/family,Adventure and thrill-seeking,5,2,5,2,4,Instagram,5,2,5,2,,
+2025-06-29,25-34,Male,Europe,Friends,"Print/Digital advertisements, Recommendations from friends/family","Scenery, Adventure and thrill-seeking",5,4,3,5,4,"Instagram, Facebook",5,2,4,4,,
+2025-06-29,25-34,Female,Europe,Alone,"Recommendations from friends/family, Travel Sites/Blogs","Scenery, Adventure and thrill-seeking",5,4,4,4,4,Instagram,4,3,2,3,,
+2025-06-29,25-34,Female,Europe,Friends,"Instagram, TikTok, Recommendations from friends/family","Scenery, Word of mouth",5,3,5,4,4,Instagram,5,5,5,2,,
+2025-06-29,18-24,Male,Europe,Alone,"Instagram, TikTok, Recommendations from friends/family",Word of mouth,4,2,5,5,4,"Instagram, Personal travel blog",5,4,3,3,,
+2025-06-29,25-34,Male,Europe,Partner,TikTok,Scenery,5,2,5,4,4,Instagram,5,4,4,2,,
+2025-06-29,18-24,Male,,With family,Recommendations from friends/family,"Adventure and thrill-seeking, Word of mouth",5,2,5,5,4,Instagram,5,5,5,5,,
+2025-06-29,18-24,Female,Europe,Friends,"TikTok, Recommendations from friends/family","Adventure and thrill-seeking, Social media hype",5,3,5,4,4,"Instagram, Personal travel blog",4,5,5,5,,
+2025-06-29,18-24,Female,Europe,Friends,"TikTok, Recommendations from friends/family","Adventure and thrill-seeking, Social media hype",5,2,4,4,4,"Instagram, TikTok",5,4,5,3,,
+2025-06-29,18-24,Male,,With family,Recommendations from friends/family,"Adventure and thrill-seeking, Word of mouth",5,2,4,4,4,Instagram,5,3,4,4,,
+2025-06-29,18-24,Male,,With family,"Instagram, Recommendations from friends/family","Scenery, Adventure and thrill-seeking, Budget-friendliness, Social media hype, Word of mouth",5,2,5,5,2,Null,5,5,5,5,,
+2025-06-29,18-24,Female,Oceania,Friends,"TikTok, Recommendations from friends/family","Scenery, Adventure and thrill-seeking, Budget-friendliness, Social media hype, Word of mouth",5,3,5,5,4,Instagram,5,5,4,5,,
+2025-06-29,18-24,Female,Oceania,Alone,Recommendations from friends/family,"Scenery, Adventure and thrill-seeking",5,3,5,5,4,Instagram,5,5,5,5,,
+2025-06-29,18-24,Female,Europe,Friends,TikTok,Adventure and thrill-seeking,5,2,5,4,4,Instagram,5,5,5,5,,
+2025-06-29,18-24,Female,Europe,Friends,Recommendations from friends/family,Adventure and thrill-seeking,4,2,5,4,4,Instagram,5,5,5,3,,
+2025-06-29,35-44,Male,,Friends,Recommendations from friends/family,"Scenery, vietnam culture",5,2,5,4,3,Instagram,4,3,5,5,,
+2025-06-29,25-34,Female,Africa,Partner,Recommendations from friends/family,Word of mouth,5,2,5,4,4,"Instagram, TikTok",5,5,5,3,,
+2025-06-29,25-34,Male,Europe,Partner,TikTok,"Scenery, Adventure and thrill-seeking, Social media hype",5,4,5,4,4,Instagram,5,5,5,4,,
+2025-06-29,25-34,Male,Europe,Friends,Recommendations from friends/family,"Scenery, Adventure and thrill-seeking",5,3,4,4,4,"Instagram, Facebook",5,4,5,3,,
+2025-06-29,18-24,Male,Europe,Alone,Recommendations from friends/family,"Scenery, Adventure and thrill-seeking",5,2,5,4,4,Instagram,5,2,5,4,,
+2025-06-29,18-24,Male,Europe,Friends,Recommendations from friends/family,"Scenery, Adventure and thrill-seeking",5,2,4,5,4,"Instagram, TikTok",4,4,4,2,,
+2025-06-29,25-34,Female,Europe,Partner,"TikTok, Recommendations from friends/family","Adventure and thrill-seeking, Social media hype",5,2,5,5,4,Instagram,5,5,5,2,,
+2025-06-29,25-34,Male,Europe,Partner,"Recommendations from friends/family, Travel Sites/Blogs","Scenery, Word of mouth",5,4,5,4,3,Instagram,5,5,5,3,,
+2025-06-30,18-24,Male,Europe,Partner,TikTok,"Scenery, Adventure and thrill-seeking",5,3,5,5,3,Null,5,5,5,3,,
+2025-07-01,18-24,Male,Europe,Friends,"TikTok, Recommendations from friends/family","Scenery, Adventure and thrill-seeking, Word of mouth",5,3,4,4,4,YouTube,5,4,5,4,,
+2025-07-01,18-24,Male,Europe,Friends,Recommendations from friends/family,Word of mouth,4,2,4,5,4,Instagram,5,4,4,3,,
+2025-07-01,18-24,Male,Asia,Alone,Instagram,"Scenery, Adventure and thrill-seeking, Budget-friendliness",4,3,4,3,4,Instagram,4,3,4,4,,
+2025-07-01,18-24,Male,Asia,Alone,Recommendations from friends/family,"Scenery, Adventure and thrill-seeking",5,1,3,2,3,Facebook,5,4,5,2,,
+2025-07-04,18-24,Male,Europe,Friends,Recommendations from friends/family,Scenery,5,1,5,5,3,Null,5,3,4,3,,
+2025-07-10,18-24,Male,Europe,Friends,"Instagram, TikTok, Recommendations from friends/family","Scenery, Adventure and thrill-seeking, Word of mouth, Socialising ",5,2,5,5,4,Instagram,5,5,5,5,,
+2025-07-10,18-24,Male,Europe,Friends,"TikTok, Recommendations from friends/family","Scenery, Adventure and thrill-seeking, Social media hype, Word of mouth",5,3,4,4,4,Instagram,5,5,5,5,,
+2025-07-18,18-24,Female,Europe,Friends,"TikTok, Recommendations from friends/family","Scenery, Adventure and thrill-seeking, Budget-friendliness, Social media hype, Word of mouth",5,1,5,5,4,Instagram,5,5,5,3,,
+2025-07-18,18-24,Female,Europe,Alone,"TikTok, Recommendations from friends/family","Scenery, Adventure and thrill-seeking, Social media hype, Word of mouth",4,2,5,5,4,Instagram,5,5,5,3,Fucking awesome ,
+2025-07-18,25-34,Female,Europe,Friends,TikTok,"Scenery, Adventure and thrill-seeking, Social media hype, Word of mouth",5,2,5,4,4,Instagram,5,5,4,4,,
+2025-07-18,18-24,Male,Europe,Partner,"TikTok, Travel Sites/Blogs","Scenery, Social media hype",4,1,4,4,4,Instagram,4,4,3,3,,
+2025-07-18,25-34,Male,Oceania,Friends,Recommendations from friends/family,Adventure and thrill-seeking,5,3,5,4,4,Instagram,5,5,5,3,,
+2025-07-18,25-34,Male,Europe,Alone,Recommendations from friends/family,The t shirt ,5,2,4,4,4,Instagram,5,5,5,3,My driver was the best !! ,
+2025-07-18,18-24,Female,Europe,Alone,Recommendations from friends/family,"Scenery, Word of mouth",5,2,5,4,4,Instagram,5,4,5,4,"I had an amazing time, the scenery was the best I have ever seen in my life. The social side of it was more mixed but that didn’t matter because I was mainly there for the views. Some of the roads were quite bumpy but most of it was a really smooth experience:)",
+2025-07-18,25-34,Female,,With family,TikTok,"Scenery, Adventure and thrill-seeking, Word of mouth",5,1,5,5,4,Instagram,5,5,5,5,,
+2025-07-18,18-24,Female,,With family,"TikTok, Recommendations from friends/family","Scenery, Adventure and thrill-seeking, Social media hype",5,2,5,3,4,Instagram,5,5,5,3,"Easy rider [NAME] and [NAME] were so much fun! made the adventure so much better. Karaoke was lots of fun, food was great, everything went very smoothly. i felt safe and made lots of friends. i would have enjoyed more activities at rest stops like the small walks to viewpoints and water fall sights but everything was perfect!  ",
+2025-07-18,18-24,Male,Europe,Alone,"TikTok, Recommendations from friends/family, Travel Sites/Blogs","Scenery, Adventure and thrill-seeking, Budget-friendliness, Social media hype, Word of mouth",5,2,5,4,4,"Instagram, Personal travel blog",4,4,5,3,I had the best easy driver in the world! He has made my trip so much better!,
+2025-07-18,18-24,Male,Europe,Partner,Recommendations from friends/family,"Scenery, Adventure and thrill-seeking",5,3,5,5,4,Instagram,5,5,5,5,,
+2025-07-18,18-24,Male,Europe,Partner,TikTok,"Scenery, Adventure and thrill-seeking, Word of mouth",4,4,5,3,4,Instagram,4,4,3,2,No,
+2025-07-18,18-24,Female,Europe,Partner,"TikTok, Recommendations from friends/family","Adventure and thrill-seeking, Word of mouth",4,3,4,4,4,"Instagram, Personal travel blog",4,4,3,3,,
+2025-07-18,18-24,Female,Europe,Friends,"Instagram, TikTok, Recommendations from friends/family, Travel Sites/Blogs","Social media hype, Word of mouth",5,1,5,4,4,"Instagram, TikTok",4,4,4,3,,
+2025-07-19,18-24,Male,SA,With family,Recommendations from friends/family,Word of mouth,5,1,3,5,4,Instagram,5,5,5,5,,3.0
+2025-07-19,18-24,Male,SA,With family,Recommendations from friends/family,"Adventure and thrill-seeking, Budget-friendliness",5,1,4,4,4,Instagram,4,4,4,4,,5.0
+2025-07-19,18-24,Male,Europe,Friends,TikTok,Adventure and thrill-seeking,5,2,4,5,4,Instagram,5,5,5,3,,5.0
+2025-07-19,18-24,Male,Europe,Friends,TikTok,Adventure and thrill-seeking,5,2,4,4,4,Instagram,4,3,3,3,,4.0
+2025-07-19,18-24,Male,Europe,Friends,"TikTok, Recommendations from friends/family",Scenery,4,3,4,4,3,Instagram,5,4,4,2,,4.0
+2025-07-19,18-24,Male,Europe,Friends,TikTok,Social media hype,5,3,2,5,4,Instagram,5,3,4,2,,5.0
+2025-07-19,25-34,Male,Europe,Alone,"Instagram, Recommendations from friends/family","Scenery, Adventure and thrill-seeking, Word of mouth",5,3,5,5,4,Instagram,5,4,3,5,,5.0
+2025-07-19,25-34,Male,,Alone,Recommendations from friends/family,"Scenery, Adventure and thrill-seeking, Budget-friendliness",5,3,5,2,4,Instagram,5,5,5,4,,2.0
+2025-07-19,18-24,Female,,Friends,"Instagram, Recommendations from friends/family, Travel Sites/Blogs","Scenery, Adventure and thrill-seeking, Social media hype, Word of mouth",4,2,5,4,4,"Instagram, Facebook",5,4,4,4,,4.0
+2025-07-19,25-34,Female,Europe,Partner,Recommendations from friends/family,"Scenery, Adventure and thrill-seeking, Word of mouth",5,4,5,4,3,Instagram,5,3,5,2,,4.0
+2025-07-19,18-24,Female,Europe,Friends,Recommendations from friends/family,"Scenery, Adventure and thrill-seeking",5,1,5,5,4,Instagram,5,5,5,3,,5.0
+2025-07-19,18-24,Female,Europe,Friends,Recommendations from friends/family,Adventure and thrill-seeking,5,2,4,3,4,Instagram,4,4,4,4,,5.0
+2025-07-19,18-24,Female,Europe,Friends,Recommendations from friends/family,Scenery,4,1,5,4,4,"Instagram, TikTok",5,5,5,3,,4.0
+2025-07-27,25-34,Male,Europe,Partner,Recommendations from friends/family,"Scenery, Adventure and thrill-seeking, Word of mouth",5,2,5,5,4,Instagram,5,3,5,3,,4.0
