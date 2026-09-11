@@ -5,7 +5,7 @@
 # showing a populated place; a post carrying one or none is showing scenery.
 #
 # That is the whole method. It can be checked by hand from the CSV, which is why
-# it is the headline rather than the latent class model in 07 (that model splits
+# it is the headline rather than the latent class model in 05 (that model splits
 # the corpus the same way, agreeing with this rule on 97 of 100 posts).
 
 source("R/00_prep.R")

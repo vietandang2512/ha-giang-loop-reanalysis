@@ -1,4 +1,4 @@
-# 07_latent_class_check.R -- robustness check on the simple split in script 03.
+# 05_latent_class_check.R -- robustness check on the simple split in script 03.
 #
 # Script 03 splits the corpus with a counting rule. This asks whether a model
 # that is told nothing about which codes matter finds the same split. Fit a
@@ -99,6 +99,6 @@ cat("Agree on", sum(diag(tab)), "of", sum(tab), "posts; Cohen's kappa =",
     fmt((po - pe) / (1 - pe), 2), "\n")
 cat("The model finds the same split, so the headline result does not depend on it.\n")
 
-write.csv(round(prof, 3), "results/07_class_profiles.csv")
+write.csv(round(prof, 3), "results/05_class_profiles.csv")
 write.csv(data.frame(ID = d$ID, class = as.character(d$class)),
-          "results/07_class_assignments.csv", row.names = FALSE)
+          "results/05_class_assignments.csv", row.names = FALSE)
