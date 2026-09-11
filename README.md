@@ -25,7 +25,7 @@ accounts against TikTok's 54%, and Instagram shows local residents more often
 whoever posts. Put platform in the model and account type falls from p=.044 to
 p=.098.
 
-![My original finding was platform, not account type](figures/04_confounding.png)
+![Figure 4. Effect of account type on depicting local residents](figures/04_confounding.png)
 
 I also ran fourteen bivariate tests and reported one. Under Holm correction the one
 I reported ranks fourth and doesn't survive, at p_holm = .49. Two others do, and the
@@ -56,7 +56,7 @@ Three of my seven codes describe human presence: locals, cultural practice,
 villages and temples. Count them per post. A post carrying at least two of the
 three is showing a place with people in it; one or none means scenery.
 
-![Two kinds of Ha Giang post](figures/01_content_types.png)
+![Figure 1. Theme prevalence by post type](figures/01_content_types.png)
 
 66 of the 100 posts are scenery, and 45 carry none of the three codes at all.
 Operator accounts show a populated place in 19% of posts against 43% for traveller
@@ -77,7 +77,7 @@ account type makes no difference to breadth at all (p = .31).
 I asked every respondent both where they found the Loop and where they post about
 it, so the comparison is paired within person.
 
-![TikTok recruits, Instagram archives](figures/02_discovery_vs_publication.png)
+![Figure 2. Platform of discovery and platform of publication](figures/02_discovery_vs_publication.png)
 
 27 found the Loop through TikTok. Two of them post to TikTok. Nine found it through
 Instagram and 55 post to Instagram. Exact McNemar gives p = 2.7e-05 and 3.5e-13.
@@ -88,7 +88,7 @@ measurably different pictures of the same place.
 
 ## The gap that beats all of it
 
-![Everyone enjoys the people; few posts show them](figures/03_representation_gap.png)
+![Figure 3. Reported enjoyment of local interaction, and depiction of locals in posts](figures/03_representation_gap.png)
 
 All 61 respondents rated "I enjoyed interactions with locals, staff and easyriders"
 at 4 or 5. Two named culture or socialising as a reason for going, against 40 who
