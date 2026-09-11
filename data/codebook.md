@@ -6,15 +6,16 @@ are in the corpus. Any comparison across the two files is descriptive.
 
 ---
 
-## `content_coding.csv` — 100 social media posts
+## `content_coding.csv`: 100 social media posts
 
-Posts carrying `#hagiangloop`, sampled from TikTok and Instagram in June–July 2025,
-50 per platform. Coded by one person (the author). **No intercoder reliability check
-has been run yet** — see `R/05_reliability.R`.
+Posts carrying `#hagiangloop`, sampled from TikTok and Instagram in June and July
+2025, 50 per platform, coded by one person (the author). The posts themselves were
+not archived: these IDs are row numbers and cannot be traced back to the media, so
+the coding can't be re-checked by anyone, and no reliability statistic exists for it.
 
 | Column | Values | Meaning |
 |---|---|---|
-| `ID` | 1–100 | Post identifier |
+| `ID` | 1-100 | Post identifier |
 | `Platform` | Instagram, TikTok | Where the post was published |
 | `Sender_Type` | Tourist, Agency | **Who owns the posting account.** Tourist = a personal traveller account. Agency = a tour operator, homestay or booking business. This describes the *account*, not how any traveller travelled. |
 | `Content_Type` | Photo_dump, Short_vid, Infographic, Advertisement, Vlog | Post format |
@@ -34,26 +35,26 @@ the post?" Codes are not mutually exclusive; a post can carry all seven or none.
 
 ### A note on `Sender_Type` vs `Tour_Group`
 
-These are different variables and the 2025 poster conflated them. `Sender_Type`
-is a property of the **account**. `Tour_Group` is a property of the **image**. A
-solo traveller's account can post a picture full of riders (`Tourist`,
+I conflated these two on my 2025 poster, so they are worth separating carefully.
+`Sender_Type` is a property of the account. `Tour_Group` is a property of the image.
+A solo traveller's account can post a picture full of riders (`Tourist`,
 `Tour_Group = Yes`), and an agency can post an empty landscape (`Agency`,
-`Tour_Group = No`). The poster's figure axis read "Independent / Tour Group" while
-the test underneath it was run on `Sender_Type`. Neither label was correct for
-the other variable. Every result in this repo names the variable it used.
+`Tour_Group = No`). My figure axis read "Independent / Tour Group" while the test
+underneath it ran on `Sender_Type`, and neither label described the other variable.
+Every result in this repository names the variable it used.
 
 ---
 
-## `survey_responses.csv` — 61 travellers
+## `survey_responses.csv`: 61 travellers
 
-Google Form administered June–July 2025 to guests at one homestay in Ha Giang.
-Recruitment through a single operator is the study's main limitation: the sample
-describes that operator's guests, not Loop travellers generally.
+Google Form administered in June and July 2025 to guests at one homestay in Ha Giang.
+I recruited entirely through a single operator, so the sample describes that
+operator's guests rather than Loop travellers generally.
 
-**De-identification.** Five respondents gave email addresses to volunteer for
-interviews. That column has been deleted from this file. Timestamps are truncated
-to the date. Two easyriders named in a free-text response are replaced with
-`[NAME]`. The raw export is not in this repository and should not be added to it.
+Five respondents gave email addresses to volunteer for interviews, and I deleted
+that column from this file. Timestamps are cut to the date, and two easyriders named
+in a free-text response are replaced with `[NAME]`. The raw export is not in this
+repository and should not be added to it.
 
 | Column | Values | Meaning |
 |---|---|---|
@@ -84,6 +85,6 @@ Likert items, all `1` strongly disagree → `5` strongly agree:
 
 ### A note on `q_party`
 
-Only 14 of 61 responses. The item was **added to the form on 19 July 2025**, part
-way through collection, so the 47 blanks are people who never saw the question,
-not people who declined it. Do not analyse it as if all 61 chose whether to answer.
+Only 14 of 61 responses, because I added the item to the form on 19 July 2025, part
+way through collection. The 47 blanks are people who never saw the question rather
+than people who declined it, so don't analyse it as if all 61 chose whether to answer.
